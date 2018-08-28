@@ -1,0 +1,207 @@
+1、基础篇
+	基本功
+	集合
+	线程
+	锁机制
+
+2、核心篇
+	数据存储
+	缓存
+	消息队列
+	
+3、框架篇
+	Spring
+	Netty
+	
+4、微服务
+	微服务
+	分布式
+	
+5、安全与性能
+	安全问题
+	性能优化
+	
+6、工程篇
+	需求分析
+	设计能力
+	设计模式
+	业务工程
+	软实力
+	
+7、HR篇
+	
+基本篇
+1.1基本功
+	面向对象的特征
+	final，finally，finalize的区别
+	int和Integer的区别
+	重载和重写
+	抽象类和接口
+	反射的用途及实现
+	自定义注解的场景及实现
+	HTTP请求GET和POST
+	session和cookie
+	session的分布式处理
+	JDBC流程
+	mvc设计思想
+	equals和==的区别
+1.2集合
+	List和Set
+	List和Map
+	ArrayList和LinkedList
+	ArrayList和Vector
+	HashMap和HashSet
+	HashMap和Hashtable
+	HashMap和ConcurrentHashMap
+	HashMap的工作原理及代码实现
+	ConcurrentHashMap的工作原理及代码实现
+1.3线程
+	进程和线程
+	创建线程的方式及实现
+	sleep()、join()、yield()的区别
+	CountDownLatch原理
+	CyicleBarrier原理
+	Semaphore原理
+	CountDownLatch和CyiclebarrierqubieThreadLocal原理
+	Executor及线程池的原理与实现方式
+1.4锁机制
+	线程安全问题
+	volatile实现原理
+	synchronize实现原理
+	synchronized和lock的区别
+	CAS乐观锁
+	ABA问题
+	乐观锁的业务场景及实现方式
+
+核心篇
+2.1数据存储
+	MYSQL索引使用的注意事项
+	反模式设计
+	分库与分表设计
+	SQL优化之道
+	MYSQL的死锁问题
+	存储引擎InnoDB和MyISAM
+	数据库索引的原理
+	为什么用B-tree
+	聚集索引与非聚集索引
+	MongoDB的使用场景
+	搜索引擎
+2.2缓存使用
+	redis有哪些类型
+	redis内部结构
+	redis使用场景
+	redis持久化机制
+	redis集群方案与实现
+	redis为什么是单线程
+	缓存崩溃和降级
+2.3消息队列
+	消息队列的使用场景
+	消息重发补偿解决思路
+	消息的幂等行
+	消息的堆积
+	如何实现消息队列
+	如何保证消息的有序性
+
+框架篇
+3.1spring
+	BeanFactory和ApplicationContext
+	SpringBean的声明周期
+	SpringIOC如何实现
+	SpringAOP实现原理
+	动态代理(JDK和Cglib)
+	Spring事务实现方式与底层原理
+	如何自定义注解实现功能
+	Spring MVC运行和启动流程
+	Spring的单例实现原理
+	Spring中使用的设计模式
+	其他产品(spring boot、spring cloud、spring data)
+3.2Netty
+	业务中Netty的使用场景
+	Netty线程模型
+	Netty的零拷贝
+	Netty内部执行流程
+	Netty重连实现
+	
+微服务篇
+4.1微服务
+	前后端分离是如何做的
+	微服务框架
+	RPC框架及实现原理
+	Dubbo的实现原理
+	RESTful的理解及API幂等性
+	如何设计一个良好的API
+	如何保证接口的幂等性
+	CAP、BASE定理
+	数据一致性问题及实现方案
+	微服务与SOA的区别
+	如何拆分服务
+	微服务的数据库管理
+	微服务的链式调用异常及安全
+4.2分布式
+	业务中分布式使用场景
+	Session的分布式方案
+	分布式锁的场景及实现方案
+	分布式事务
+	集群与负载均衡的算法与实现
+	
+安全与性能
+5.1安全问题
+	安全要素与STRIDE威胁
+	防范常见的Web攻击
+	服务端通信安全攻防
+	HTTPS原理剖析和降级攻击
+	授权与认证
+	基于角色的访问控制
+	基于数据的访问控制
+5.2性能优化
+	性能指标
+	发现性能瓶颈
+	性能调优的常见手段
+	
+工程篇
+6.1需求分析
+	如何对需求原型进行理解和拆分
+	功能需求的理解
+	非功能需求的理解
+	产品交互和改进意见
+	理解用户需求
+6.2设计能力
+	UML图
+	如何考虑组件化及服务化
+	如何进行领域建模及划分领域边界
+	概要设计
+6.3设计模式
+	常用开源框架中使用的设计模式
+	设计原型的理解
+	23种设计模式的设计理念(几种常用模式理解)
+	设计模式之间的异同(策略模式与状态模式)与结合(策略模式与简单工厂模式)
+6.4业务工程
+	系统中前后端分离
+	业务与技术的理解
+	CPU100%的排查与解决
+	OOM的排查与解决
+6.5软实力
+	有意义的技术书籍()
+	业余生活()
+	个人发展方向的思考
+	其他
+	
+HR篇
+	为什么离开前一家公司
+	职业规划
+	如何看待加班问题
+	个人优点
+	个人缺点
+	业余爱好
+	其他
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

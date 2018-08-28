@@ -1,0 +1,105 @@
+一、互联网工程与工具：
+	1、Maven：项目管理
+		技能要求：认识maven体系结构
+				  掌握maven的核心命令
+				  掌握maven的pom配置
+				  搭建Nexus私服
+				  
+	2、Git：版本管理
+		技能要求：认识Git体系结构
+				  动手搭建git客户端和服务端
+				  掌握git的核心命令
+				  Git企业应用经验
+				  
+	3、Jenkins：持续集成
+		技能要求：理解可持续集成概念
+				  认识Jenkins
+				  动手搭建jenkins
+				  Jenkins插件体系
+				  
+	4、Linux：
+		技能要求：linux原理、启动、目录介绍
+				  运维常用命令
+				  用户与权限
+				  Shell脚本编写
+
+二、源码分析
+	1、Spring Framework
+		要求：认识Spring体系
+			  理解Spring IOC容器设计原理
+			  掌握IOC Bean声明周期
+			  Spring context装载过程
+			  FactoryBean与BeanFactory的区别
+			  掌握Spring aop编程概念、底层原理
+			  基于Spring AOP实现应用插件机制
+			  
+	2、Spring MVC
+		要求：理解MVC设计思想
+			  DispatchServlet核心类结构
+			  基于示例展示DispatchServlet核心结构
+			  MVC执行流程讲解
+			  RequestMapping实现原理
+			  MVC初始化过程
+			  熟悉MVC组件体系
+			  
+	3、Mybatis
+		要求：整体认识Mybatis
+			  Mybatis核心应用与配置
+			  Mybatis源码分析
+			  
+	4、Hibernate
+		要求：认识Hibernate
+			  Hibernate原理与配置
+			  Hibernate核心类理解与分析
+	
+三、并发编程
+	1、并发包之executor线程池
+		核心：Furture和Execuor
+			  源码分析
+	
+	2、并发包之lock锁
+		核心：synchronized、volatile
+			  Lock、RetreentLock、Condition、AbstractQueueSynchronizer
+			  源码分析
+	
+	3、并发包之autmic类
+	
+	4、并发包之竞争条件
+		核心：CountDownLatch、CycliBarrier、Semaphore
+	
+	5、并发集合类
+		核心：Collections
+		
+四、分布式框架
+	1、分布式消息中间件
+		1)、分布式服务治理(Zookeeper、Dubbo)
+		2)、分布式消息异步解耦(RocketMq、Kafka)
+		3)、分布式数据缓存(Redis)
+		4)、分布式数据存储(sharding-sphere)
+		
+	2、分布式搜索引擎(ELK)
+	
+	3、分布式通信(Netty)
+		1)、深入IO和NIO线程模型Reactor模型Netty
+		2)、Netty的线程模型源码分析
+		3)、深入高性能序列化协议protobuf及源码分析
+		4)、深入粘包分包及解决防范、编解码器源码分析
+		5)、Netty之WebSocket协议开发应用实践
+		
+五、微服务架构
+	1、Spring boot
+		1)、Spring boot快速开始及配置
+		2)、Spring boot部署方式及热部署
+		3)、Spring boot集成其他(Mybatis、Rabbitmq、Log4j2等)配置
+	
+	2、Spring Cloud
+		1)、eureka微服务注册与发现详解
+		2)、ribbon客户端负载均衡
+		3)、fegin声明式服务调用
+		4)、hystrix实现服务限流、熔断等
+		5)、hystrix实现自定义接口降级，监控数据等
+		6)、Zuul统一网关
+		7)、分布式配置中心Config
+		8)、其他
+		
+			  
