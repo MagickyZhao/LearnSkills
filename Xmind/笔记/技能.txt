@@ -1,4 +1,4 @@
-一、互联网工程与工具：
+﻿一、互联网工程与工具：
 	1、Maven：项目管理
 		技能要求：认识maven体系结构
 				  掌握maven的核心命令
@@ -27,7 +27,7 @@
 	1、Spring Framework
 		要求：认识Spring体系
 			  理解Spring IOC容器设计原理
-			  掌握IOC Bean声明周期
+			  掌握IOC Bean生命周期
 			  Spring context装载过程
 			  FactoryBean与BeanFactory的区别
 			  掌握Spring aop编程概念、底层原理
